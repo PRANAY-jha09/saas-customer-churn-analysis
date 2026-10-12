@@ -1,23 +1,22 @@
-# Python
-__pycache__/
-*.py[cod]
+
+# Python virtual environment
 .venv/
 venv/
+env/
 
-# PyCharm
-.idea/
+# Python cache files
+__pycache__/
+*.py[cod]
 
 # Environment variables and secrets
 .env
 .env.*
 
-# Jupyter
+# PyCharm settings
+.idea/
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Local databases
-*.db
-*.sqlite
-*.sqlite3
-
-# Temporary files
+# Logs
 *.log
